@@ -1,0 +1,36 @@
+{
+  "pages": [
+    {
+      "path": "pages/index",
+      "type": "home"
+    },
+    {
+      "path": "pages/hi",
+      "type": "page"
+    },
+    {
+      "path": "pages/chat/index",
+      "type": "page"
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTitleText": "Wot-Demo",
+    "navigationBarTextStyle": "white",
+    "navigationStyle": "custom"
+  },
+  "tabBar": {
+    "custom": true,
+    "height": "0",
+    "color": "#bfbfbf",
+    "selectedColor": "#0165FF",
+    "list": [
+      {
+        "pagePath": "pages/index"
+      },
+      {
+        "pagePath": "pages/hi"
+      }
+    ]
+  },
+  "subPackages": []
+}
