@@ -1,10 +1,10 @@
 <!--
  * @Author: weisheng
  * @Date: 2025-02-22 14:49:56
- * @LastEditTime: 2025-02-22 17:59:13
+ * @LastEditTime: 2025-07-15 19:49:03
  * @LastEditors: weisheng
  * @Description:
- * @FilePath: /my-demo/src/pages/index.vue
+ * @FilePath: /trae-ai-demo/src/pages/index.vue
  * 记得注释
 -->
 <script setup lang="ts">
@@ -322,9 +322,7 @@ function loadMoreMessages() {
     <view class="chat-input safe-area-bottom">
       <wd-input
         v-model="inputMessage"
-        type="textarea"
         placeholder="请输入消息"
-        :rows="2"
         class="message-textarea"
         :disabled="loading"
         @keypress.enter.prevent="sendMessage"
@@ -340,7 +338,7 @@ function loadMoreMessages() {
 .chat-container {
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  height: 100dvh;
   background-color: #f7f7f7;
   position: relative;
 }
