@@ -1,7 +1,7 @@
 <!--
  * @Author: weisheng
  * @Date: 2025-02-22 14:49:56
- * @LastEditTime: 2025-07-15 19:49:03
+ * @LastEditTime: 2025-07-15 19:51:21
  * @LastEditors: weisheng
  * @Description:
  * @FilePath: /trae-ai-demo/src/pages/index.vue
@@ -339,6 +339,7 @@ function loadMoreMessages() {
   display: flex;
   flex-direction: column;
   height: 100dvh;
+  overflow: hidden;
   background-color: #f7f7f7;
   position: relative;
 }
